@@ -17,9 +17,9 @@ body {
 }
 
 .page {
-  width: 1040px;
-  margin: 0px auto;
-  padding-top: 64px;
+  width: fit-content;
+  padding-top: 2px;
+  align-items: center;
 }
 nav {
   font-family: "Poppins", sans-serif;
@@ -72,15 +72,16 @@ nav ul li a:hover {
 .hero{
     align-items: center;
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .hero h1{
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
+    font-weight: bolder;
     padding: 20px 0px 20px 0px;
     margin: 20px 0px 10px 0px;
     text-align: center;
+    font-size: 54px;
 }
 .hero h2{
     font-family:"Poppins";
@@ -88,5 +89,88 @@ nav ul li a:hover {
     font-weight: 600;
     font-style: italic;
     text-align:center;
-    text-wrap: ;
+    padding: 10px 25% 10px 25%;
+    text-wrap: pretty;
+    font-size: 24px;
+}
+
+.hero p{
+    font-family:"Poppins";
+    font-weight: 400;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 10px 30% 10px 30%;
+    margin-bottom: 5%;
+
+}
+
+.black-box{
+     background-color: black;
+     color: white;
+     text-align: center;
+     font-family: "Poppins";
+     font-style: italic ;
+     font-size: 300%;
+     padding: 5% 5%;
+}
+
+.reviews{
+    padding: 5px;
+    align-items: center;
+}
+
+.reviews h1{
+    font-family: "Poppins";
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom:30px;
+}
+
+.card-container div{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin: 10px 50px;
+    border-radius: 10px;
+    border:3px solid black;  
+    
+}
+.card-container div .image-container{   
+    /* background-color:black; */
+    text-align: center;
+    border:0px
+}
+
+
+.card-container div .image-container img{
+    width: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    border:3px solid black;    
+}
+
+.card-container  div p{
+    font-family:"Poppins";
+    font-weight: 400;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 5px 5px;
+}
+
+.card-container div h1{
+    font-size: 25px;
 }
